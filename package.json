@@ -1,0 +1,24 @@
+{
+  "name": "pissant",
+  "version": "0.1.0",
+  "description": "Various utilities for working with JavaScript.",
+  "files": ["dist/"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubol/pissant.git"
+  },
+  "author": "Hubol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hubol/pissant/issues"
+  },
+  "homepage": "https://github.com/hubol/pissant#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
