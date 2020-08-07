@@ -3,5 +3,13 @@ import { sleep } from "./sleep";
 import { wait } from "./wait";
 import { Stopwatch } from "./stopwatch";
 import { AsyncReturnType } from "./types";
+import { toPascalCase } from "./toPascalCase";
 
-export { CancellationToken, handlePromiseCancellation, sleep, wait, Stopwatch, AsyncReturnType }
+export {
+    CancellationToken,
+    handlePromiseCancellation,
+    sleep,
+    wait,
+    Stopwatch,
+    AsyncReturnType,
+    toPascalCase }
