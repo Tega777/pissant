@@ -2,7 +2,7 @@ import { CancellationToken, handlePromiseCancellation } from "./cancellationToke
 import { sleep } from "./sleep";
 import { wait } from "./wait";
 import { Stopwatch } from "./stopwatch";
-import { AsyncReturnType } from "./types";
+import { AsyncReturnType, Predicate } from "./types";
 import { toPascalCase } from "./toPascalCase";
 
 export {
@@ -12,4 +12,5 @@ export {
     wait,
     Stopwatch,
     AsyncReturnType,
+    Predicate,
     toPascalCase }
